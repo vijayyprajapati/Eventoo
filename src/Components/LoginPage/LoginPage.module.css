@@ -1,0 +1,66 @@
+.logo {
+  position: absolute;
+  width: 163px;
+  height: 62px;
+  left: 97px;
+  top: 45px;
+
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 62px;
+  text-align: center;
+
+  color: #d9d9d9;
+}
+
+.page-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.right-content .word1 {
+  font-size: 50px;
+  font-weight: normal;
+
+  color: #ffffff;
+}
+
+.right-content .word2 {
+  font-size: 100px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+}
+
+.buttons button {
+  font-weight: lighter;
+  background: none;
+  font-size: 20px;
+  color: #4c90f2;
+
+  border-radius: 70px;
+  width: 150px;
+  height: 40px;
+  margin-top: 15px;
+  border: 2px solid #4c90f2;
+  margin-right: 80px;
+}
+
+.buttons .loginBtn {
+  background: #4c90f2;
+  color: white;
+}
+
+.buttons button:hover {
+  cursor: pointer;
+  color: white;
+  background: #4c90f2;
+}
