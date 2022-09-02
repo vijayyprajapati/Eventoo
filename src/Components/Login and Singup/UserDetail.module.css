@@ -18,7 +18,7 @@
   font-weight: 700;
 }
 
-.signUp {
+.userDetail {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -27,19 +27,19 @@
   margin-right: 50px;
 }
 
-.signUp label {
+.userDetail label {
   font-size: 20px;
   color: #ffffff;
   font-weight: lighter;
   margin-bottom: 5px;
 }
 
-.signUp :nth-child(3),
+.userDetail :nth-child(3),
 :nth-child(5) {
   margin-top: 20px;
 }
 
-.signUp input {
+.userDetail input {
   border: none;
   width: 300px;
   height: 30px;
@@ -51,29 +51,28 @@ input:active {
   outline: none;
 }
 
-.signUp input:focus,
+.userDetail input:focus,
 textarea:focus,
 select:focus {
   outline: none;
 }
 
-.signUp input[type="text"] {
+.userDetail input[type="text"] {
   font-size: 16px;
   opacity: 0.7;
   color: #ffffff;
 }
-
-.signUp input[type="password"] {
+.userDetail input[type="number"] {
   font-size: 16px;
-  opacity: 0.7;
+  opacity: 0.6;
   color: #ffffff;
 }
 
-.signUp input::placeholder {
+.userDetail input::placeholder {
   font-size: 16px;
 }
 
-.signUp .button {
+.userDetail .button {
   font-weight: lighter;
   background: none;
   font-size: 17px;
@@ -86,11 +85,12 @@ select:focus {
   margin-left: 60px;
   border: 2px solid #4c90f2;
 }
-.signUp button:hover {
+
+.userDetail button:hover {
   cursor: pointer;
 }
 
-.signUp p {
+.userDetail p {
   color: #ffffff;
   font-weight: 100;
   opacity: 0.6;
@@ -98,11 +98,30 @@ select:focus {
   margin-left: 20px;
 }
 
-.signUp p span {
+.userDetail p span {
   color: #4c90f2;
   opacity: 1;
 }
 
-.signUp p span:hover {
+.userDetail p span:hover {
   cursor: pointer;
+}
+
+.userDetail .selection {
+  display: flex;
+  justify-content: space-between;
+}
+
+.userDetail .selection .type {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+  margin: 5px;
+}
+
+.userDetail .selection .type label {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-right: 20px;
 }
