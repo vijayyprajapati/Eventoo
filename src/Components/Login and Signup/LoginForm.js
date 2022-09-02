@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "../Login and Singup/LoginForm.module.css";
+import styles from "./LoginForm.module.css";
 import Navbar from "../Navbar/Navbar";
 
 const LoginForm = () => {

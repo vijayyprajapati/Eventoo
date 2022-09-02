@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "../Login and Singup/SingUpForm.module.css";
+import styles from "./SignUpForm.module.css";
 
 import Navbar from "../Navbar/Navbar";
 

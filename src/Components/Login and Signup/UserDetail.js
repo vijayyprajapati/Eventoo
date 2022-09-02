@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import Navbar from "../Navbar/Navbar";
-import styles from "../Login and Singup/UserDetail.module.css";
+import styles from "./UserDetail.module.css";
 const UserDetail = () => {
   const [user, setUser] = useState({
     name: "",

@@ -15,7 +15,7 @@ const LandingPage = () => {
           <div className={styles["right-content"]}>
             <div className={styles.buttons}>
               <button className={styles.loginBtn}>Login</button>
-              <button>Sing Up</button>
+              <button>Sign Up</button>
             </div>
           </div>
         </div>

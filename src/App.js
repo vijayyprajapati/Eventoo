@@ -1,8 +1,9 @@
 import "./App.css";
 import LoginPage from "./Components/LandingPage/LandingPage";
-import LoginForm from "./Components/Login and Singup/LoginForm";
-import SingUpForm from "./Components/Login and Singup/SingUpForm";
-import UserDetail from "./Components/Login and Singup/UserDetail";
+import FinalSignup from "./Components/Login and Signup/FinalSignup";
+import LoginForm from "./Components/Login and Signup/LoginForm";
+import SingUpForm from "./Components/Login and Signup/SignUpForm";
+import UserDetail from "./Components/Login and Signup/UserDetail";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       {/* <LoginForm /> */}
       {/* <SingUpForm /> */}
       {/* <UserDetail /> */}
+      {/* <FinalSignup /> */}
     </div>
   );
 }

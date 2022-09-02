@@ -1,0 +1,73 @@
+.page-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.left-content .word1 {
+  font-size: 50px;
+  font-weight: normal;
+  color: #ffffff;
+}
+.left-content .word2 {
+  font-size: 100px;
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile img {
+  border-radius: 50%;
+}
+.profile h2 {
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.profile p {
+  margin: 0;
+}
+
+.profile .gmail {
+  color: white;
+  opacity: 0.6;
+}
+
+.profile button {
+  margin: 50px;
+
+  font-weight: lighter;
+  background: none;
+  font-size: 17px;
+  color: #ffffff;
+  background-color: #4c90f2;
+  border-radius: 70px;
+  width: 150px;
+  height: 40px;
+  margin-top: 60px;
+  margin-left: 60px;
+  border: 2px solid #4c90f2;
+}
+
+.profile button:hover {
+  cursor: pointer;
+}
+
+.profile p {
+  color: white;
+}
+
+.profile p span {
+  color: #4c90f2;
+}
+
+.profile p span:hover {
+  cursor: pointer;
+}
