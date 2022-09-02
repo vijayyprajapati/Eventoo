@@ -1,19 +1,18 @@
 import React from "react";
-import styles from "../LoginPage/LoginPage.module.css";
+import Navbar from "../Navbar/Navbar";
+import styles from "./LandingPage.module.css";
 
-const LoginPage = () => {
+const LandingPage = () => {
   return (
     <div>
       <div className={styles.container}>
-        <div className={styles.navbar}>
-          <div className={styles.logo}>EventO</div>
-        </div>
+        <Navbar />
         <div className={styles["page-content"]}>
-          <div className={styles["right-content"]}>
+          <div className={styles["left-content"]}>
             <span className={styles.word1}>Welcome, </span>
             <br></br> <span className={styles.word2}> Comarade</span>
           </div>
-          <div className={styles["left-content"]}>
+          <div className={styles["right-content"]}>
             <div className={styles.buttons}>
               <button className={styles.loginBtn}>Login</button>
               <button>Sing Up</button>
@@ -25,4 +24,4 @@ const LoginPage = () => {
   );
 };
 
-export default LoginPage;
+export default LandingPage;

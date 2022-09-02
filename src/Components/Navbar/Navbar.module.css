@@ -1,0 +1,14 @@
+.logo {
+  position: absolute;
+  width: 163px;
+  height: 62px;
+  left: 97px;
+  top: 45px;
+
+  font-weight: 400;
+  font-size: 35px;
+  line-height: 62px;
+  text-align: center;
+
+  color: #d9d9d9;
+}
