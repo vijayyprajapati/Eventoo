@@ -1,0 +1,23 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile img {
+  border-radius: 50%;
+}
+.profile h2 {
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.profile p {
+  margin: 0;
+}
+
+.profile .gmail {
+  color: white;
+  opacity: 0.6;
+}

@@ -6,18 +6,6 @@
   width: 100vw;
 }
 
-.left-content .word1 {
-  font-size: 50px;
-  font-weight: normal;
-  color: #ffffff;
-}
-
-.left-content .word2 {
-  font-size: 100px;
-  color: #ffffff;
-  font-weight: 700;
-}
-
 .signUp {
   height: 100%;
   display: flex;
@@ -71,38 +59,4 @@ select:focus {
 
 .signUp input::placeholder {
   font-size: 16px;
-}
-
-.signUp .button {
-  font-weight: lighter;
-  background: none;
-  font-size: 17px;
-  color: #ffffff;
-  background-color: #4c90f2;
-  border-radius: 70px;
-  width: 150px;
-  height: 40px;
-  margin-top: 60px;
-  margin-left: 60px;
-  border: 2px solid #4c90f2;
-}
-.signUp button:hover {
-  cursor: pointer;
-}
-
-.signUp p {
-  color: #ffffff;
-  font-weight: 100;
-  opacity: 0.6;
-  margin-top: 80px;
-  margin-left: 20px;
-}
-
-.signUp p span {
-  color: #4c90f2;
-  opacity: 1;
-}
-
-.signUp p span:hover {
-  cursor: pointer;
 }

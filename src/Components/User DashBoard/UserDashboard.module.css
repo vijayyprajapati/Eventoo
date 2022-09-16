@@ -1,0 +1,15 @@
+.dashboard-img .img1 {
+  height: 250px;
+  width: 779px;
+  margin-left: 200px;
+  margin-top: 250px;
+  margin-bottom: 400px;
+}
+
+.dashboard-img .img2 {
+  position: absolute;
+
+  height: 1000;
+  margin-top: 110px;
+  width: 540px;
+}

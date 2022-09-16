@@ -5,44 +5,20 @@
   height: 100vh;
   width: 100vw;
 }
+
 .left-content .word1 {
   font-size: 50px;
   font-weight: normal;
   color: #ffffff;
 }
+
 .left-content .word2 {
   font-size: 100px;
   color: #ffffff;
   font-weight: 700;
 }
 
-.profile {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.profile img {
-  border-radius: 50%;
-}
-.profile h2 {
-  color: #ffffff;
-  margin-top: 10px;
-}
-
-.profile p {
-  margin: 0;
-}
-
-.profile .gmail {
-  color: white;
-  opacity: 0.6;
-}
-
-.profile button {
-  margin: 50px;
-
+.button {
   font-weight: lighter;
   background: none;
   font-size: 17px;
@@ -55,19 +31,23 @@
   margin-left: 60px;
   border: 2px solid #4c90f2;
 }
-
-.profile button:hover {
+button:hover {
   cursor: pointer;
 }
 
-.profile p {
-  color: white;
+p {
+  color: #ffffff;
+  font-weight: 100;
+  opacity: 0.6;
+  margin-top: 80px;
+  margin-left: 20px;
 }
 
-.profile p span {
+p span {
   color: #4c90f2;
+  opacity: 1;
 }
 
-.profile p span:hover {
+p span:hover {
   cursor: pointer;
 }

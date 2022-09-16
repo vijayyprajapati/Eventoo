@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../Navbar/Navbar";
 import styles from "./LandingPage.module.css";
+import { Link } from "react-router-dom";
 
 const LandingPage = () => {
   return (
@@ -14,8 +15,12 @@ const LandingPage = () => {
           </div>
           <div className={styles["right-content"]}>
             <div className={styles.buttons}>
-              <button className={styles.loginBtn}>Login</button>
-              <button>Sign Up</button>
+              <Link to="/login">
+                <button className={styles.loginBtn}>Login</button>
+              </Link>
+              <Link to="/signup">
+                <button>Sign Up</button>
+              </Link>
             </div>
           </div>
         </div>
