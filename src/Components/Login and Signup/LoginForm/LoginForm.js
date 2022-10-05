@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 
 const LoginForm = () => {
   const [user, setUser] = useState({
-    email: "",
+    collegeId: "",
     password: "",
   });
 
@@ -19,7 +19,7 @@ const LoginForm = () => {
     try {
       console.log(user);
       const res = await axios.post(
-        "http://localhost:5000/api/user/login",
+        "http://localhost:3008/api/user/login",
         user
       );
       setUser(res.data.user);
@@ -49,11 +49,11 @@ const LoginForm = () => {
         </div>
 
         <div className={styles.login}>
-          <label>Email</label>
+          <label>College Id</label>
           <input
             type="text"
-            name="email"
-            value={user.email}
+            name="collegeId"
+            value={user.collegeId}
             onChange={handleChange}
             placeholder="Enter your Email"
           ></input>

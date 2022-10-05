@@ -26,13 +26,13 @@ const UserDetail = ({ formData, setFormData }) => {
             }
             placeholder="Enter your number"
           ></input>
-          <label>Admission No.</label>
+          <label>College ID</label>
           <input
             type="text"
-            name="admissionNum"
-            value={formData.admissionNum}
+            name="collegeId"
+            value={formData.collegeId}
             onChange={(event) =>
-              setFormData({ ...formData, admissionNum: event.target.value })
+              setFormData({ ...formData, collegeId: event.target.value })
             }
             placeholder="Enter your admission number"
           ></input>

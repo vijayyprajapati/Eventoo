@@ -13,3 +13,104 @@
   margin-top: 110px;
   width: 540px;
 }
+
+.events-section h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+}
+
+.events-section span {
+  font-size: 20px;
+}
+
+.events-section .events-head {
+  margin: 0;
+  padding: 0;
+  color: white;
+  margin-left: 100px;
+}
+
+.events-section .show-events {
+  margin-left: 80px;
+  margin-right: 50px;
+  display: flex;
+  color: white;
+  height: 200px;
+  display: flex;
+}
+.events-section .show-events .events-text {
+  max-width: 250px;
+  margin: 20px;
+}
+
+.events-section .show-events .events {
+  height: 180px;
+  width: 180px;
+  margin: 20px;
+  background-color: white;
+}
+
+.events-section .my-event-head {
+  margin: 0;
+  padding: 0;
+  color: white;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.my-events {
+  display: flex;
+  margin-left: 80px;
+  margin-right: 50px;
+  display: flex;
+  color: white;
+  height: 200px;
+  display: flex;
+}
+
+.my-events .events {
+  height: 180px;
+  width: 180px;
+  margin: 20px;
+  background-color: white;
+}
+
+.bottom-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+}
+
+.bottom-content p {
+  text-align: center;
+  font-size: 60px;
+  width: 800px;
+  color: #ffffff;
+}
+
+.bottom-content button {
+  margin: 10px;
+  padding: 10px;
+  width: 150px;
+  background: #43b97f;
+  border-radius: 30px;
+}
+
+.footer {
+  color: white;
+  background: #20201f;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 70px;
+}
+.footer .address {
+  width: 400px;
+  text-align: center;
+}
+.footer .link {
+  display: flex;
+}
